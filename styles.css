@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    width: 90%;
+    margin: 5rem 0;
+}
+
+#page-title {
+    width: 80%;
+    color: hsl(300, 43%, 22%);
+    font-size: 2.5rem;
+}
+
+#page-desc {
+    width: 88%;
+    color: hsl(303, 10%, 53%);
+    margin-bottom: .5rem;
+}
+
+.star-reviews {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .75rem;
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+
+.star-review {
+    background-color: hsl(300, 24%, 96%);
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    border-radius: 8px;
+}
+
+.five-stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.star-review h2 {
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+}
+
+.customer-reviews {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    color: #ffffff;
+}
+
+.customer-review {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+
+.customer-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2.5rem 0 0 2rem;
+}
+
+.customer-info img {
+    border-radius: 100%;
+    width: 13%;
+}
+
+.customer-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+}
+
+.customer-info div h3 {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+
+.customer-info div h2, .customer-info div h3{
+    font-size: 1rem;
+}
+
+.customer-review p {
+    margin: 1.5rem 2rem 2rem 2rem;
+    font-size: 15px;
+    line-height: 1.25rem;
+    text-align: start;
+    width: 70%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    width: 100%;
+}
+
+.attribution a { 
+    color: hsl(234, 100%, 65%); 
+}
