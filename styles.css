@@ -241,4 +241,22 @@ header {
         top: 0;
         right: 45%;
     }
+    #page-title {
+        width: 62%;
+    }
+    #page-desc {
+        width: 75%;
+    }
+    #first-review {
+        margin-right: 6rem;
+    }
+    #second-review {
+        margin: 0 4rem;
+    }
+    #third-review {
+        margin-left: 6rem;
+    }
+    .customer-reviews {
+        gap: 2rem;
+    }
 }
